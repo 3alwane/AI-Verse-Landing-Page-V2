@@ -246,7 +246,7 @@ export default function HeroSection12({
 
   return (
     <section
-      className={`relative w-full overflow-hidden py-16 lg:py-10 bg-background text-foreground transition-colors duration-300 ${className}`}
+      className={`relative w-full overflow-hidden py-16 lg:py-10 text-foreground transition-colors duration-300 bg-[var(--hero-background)] rounded-[var(--radius)]  ${className}`}
     >
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center min-h-[600px] lg:min-h-[700px]">
         {/* LEFT COLUMN: TEXT CONTENT (Centered on mobile, left-aligned on lg) */}
